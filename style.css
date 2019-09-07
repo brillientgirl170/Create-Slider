@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#content{
+    width: 700px;
+    margin: 0 auto;
+}
+#slider{
+    height: 400px;
+    overflow: hidden;
+}
+.images img{
+    height: 400px;
+    width: 100%;
+}
+.details{
+    background: black;
+    color: white;
+    padding: 5px 5px 5px 15px;
+    margin-top: -59px;
+    opacity: 0.8;
+}
+#play, #pause, #prev, #next{
+    background: black;
+    opacity: 0.5;
+    color: white;
+    position: absolute;
+    z-index: 10;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+#play{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: rotate(90deg);
+}
+#pause{
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  transform: rotate(90deg);
+}
+#prev{
+  position: absolute;
+  top: 150px;
+  left: 10px; 
+}
+#next{
+  position: absolute;
+  top: 150px;
+  right: 10px; 
+}
+#pager{
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    left: 280px;
+}
+#pager a{
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 0px;
+    border: 1px solid white;
+    margin-right: 5px;
+    padding: 5px;
+}
+#pager a.activeSlide{
+    background-image: linear-gradient(to left, #FE9E48, #326D04);
+}
+#div{
+    width: 400px;
+    margin: auto;
+}
+#text, #pass, #checker{
+    float: left;
+    margin-right: 5px;
+}
+.weak{
+    display: block;
+    background: red;
+    color: white;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    line-height: 20px;
+}
+.good{
+    display: block;
+    background: orange;
+    color: white;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    line-height: 20px;
+}
+.strong{
+    display: block;
+    background: green;
+    color: white;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    line-height: 20px;
+}
+table{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center; 
+}
+.even{
+    background: greenyellow;
+}
+.odd{
+    background: rosybrown;
+}
+#colors{
+    width: 150px;
+    margin-left: 500px;;
+    padding: 5px;
+    font-size: 30px;
+    background: lightcoral;
+    border-radius: 10%;
+}
+div#menu{
+    width: 700px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    background: greenyellow;
+    float: left;
+    line-height: 35px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+ul li a:hover{
+    background: orange;
+}
+ul li li{
+    display: none;
+}
+
+.menu a{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    background: gray;
+    line-height: 35px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    border-bottom-right-radius: 10px; 
+}
+.menu a:hover{
+    background: blue;
+    color: white;
+}
